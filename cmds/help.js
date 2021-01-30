@@ -1,0 +1,5 @@
+exports.run = async(client, message, args, Discord) =>{
+  
+  message.channel.send('> > :flag_es: Este bot está en **beta 0.2** y no tiene muchos comandos :)\n> > :flag_us:This bot is in **beta 0.2** and dont have many commands.\n\n> **+ Comandos gdps (Gdps Commands):**\n> `u?level`, `u?user`, `u?dailylevel`, `u?weekly`, `u?gdfont`, `u?gdlogo`\n\n> **+ Comandos admins (Admin Comamnds):**\n> `u?say`, `u?addmoney`, `u?removemoney`, `u?create-item`, `u?delete-item`\n\n> **+ Comandos de economía (Economy Commands):**\n> `u?money`, `u?buy`, `u?daily`, `u?deposit`, `u?withdraw`, `u?inventory`, `u?pay`, `u?fish`, `u?work`, `u?top`, `u?shop`\n\n> **+Comandos en desarrollo (Commands in development):** `u?job`, `u?profile`\n\n:flag_es: *Algunos de los comandos de economia pueden ser ejecutados en español.*\n:flag_us: *Some commands can be executed in spanish.*')
+  
+}

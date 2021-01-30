@@ -1,0 +1,2 @@
+const mongoose = require("mongoose");
+module.exports = mongoose.connect("mongodb+srv://cluster0-mjsvu.mongodb.net/", { useNewUrlParser: true, useUnifiedTopology: true, user: process.env.ACCUSERNAME, pass: process.env.ACCPASS2, dbName: 'urusbot'})
